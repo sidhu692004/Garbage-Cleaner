@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "155587040099",
+    "project_id": "kachra-seth-7e87b",
+    "storage_bucket": "kachra-seth-7e87b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155587040099:android:e782e48e9bd9d52dca3956",
+        "android_client_info": {
+          "package_name": "com.example.kachraseth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155587040099-14om533n43u6p7h3dc1dachai27ov357.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kachraseth",
+            "certificate_hash": "94e04fd067fdc61a7847ebdd63e6d6a3dbaf45f0"
+          }
+        },
+        {
+          "client_id": "155587040099-9622gsf4es5nhjtijbvsdc46jc1d0mk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlWDaV7K1NiaGlxH0amPLoUStg8K4NG28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155587040099-9622gsf4es5nhjtijbvsdc46jc1d0mk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

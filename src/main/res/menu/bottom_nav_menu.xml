@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_sell"
+        android:icon="@drawable/baseline_sell_24"
+        android:title="Sell Scrap" />
+    <item
+        android:id="@+id/nav_rate"
+        android:icon="@drawable/baseline_chat_24"
+        android:title="Chat" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/baseline_people_24"
+        android:title="Profile" />
+</menu>
