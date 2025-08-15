@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Gradient Background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#89CFF0"
+                android:endColor="#1E90FF"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Background Pattern -->
+<!--    <item>-->
+<!--        <bitmap-->
+<!--            android:src="@drawable/pattern_overlay"-->
+<!--            android:tileMode="repeat"-->
+<!--            android:gravity="center" />-->
+<!--    </item>-->
+
+</layer-list>

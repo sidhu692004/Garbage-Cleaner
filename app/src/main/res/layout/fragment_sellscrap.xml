@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Search View at the top -->
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Scrap"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Scroll View to hold the card views -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchView"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Plastic Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardPlastic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imgPlastic"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/plastic" />
+
+                    <TextView
+                        android:id="@+id/textPlastic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/imgPlastic"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="24dp"
+                        android:text="Plastic"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Paper Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardPaper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imgPaper"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/paper" />
+
+                    <TextView
+                        android:id="@+id/textPaper"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/imgPaper"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="24dp"
+                        android:text="Paper"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Metal Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardMetal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imgMetal"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/metal" />
+
+                    <TextView
+                        android:id="@+id/textMetal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/imgMetal"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="24dp"
+                        android:text="Metal"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- E-Waste Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardEwaste"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imgEwaste"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ewaste" />
+
+                    <TextView
+                        android:id="@+id/textEwaste"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/imgEwaste"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="24dp"
+                        android:text="E-Waste"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Others Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardOthers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imgOthers"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/otherit" />
+
+                    <TextView
+                        android:id="@+id/textOthers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/imgOthers"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="24dp"
+                        android:text="Others"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
